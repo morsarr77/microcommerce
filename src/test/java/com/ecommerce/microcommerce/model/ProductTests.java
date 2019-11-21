@@ -8,8 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ProductTests {
   @Test
   public void toStringProduct(){
-    Product product=new Product(1,"nokia",2,1);
+    Product product=new Product(1,"samsung",2,1);
 
-    Assert.assertEquals("id:nokia,nom=nokia,prix=2", product.toString());
+    Assert.assertEquals("id:samsung,nom=nokia,prix=2", product.toString());
   }
 }
